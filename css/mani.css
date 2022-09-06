@@ -1,0 +1,141 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+	width:90%;
+	margin:auto;
+	
+}
+#header {
+	background-color:#072b62;
+	height:100px;
+}
+#header .header-whole{
+	display:flex;
+	justify-content:space-between;
+}
+#header .header-whole .h-left h1{
+	color:white;
+	line-height:100px;
+	
+}
+#header .header-whole .h-right ul li,a{
+	
+	list-style:none;
+	text-decoration:none;
+	color:#d5c1c1e8;
+}
+#header .header-whole .h-right .easy > li{
+	display:inline-block;
+	padding-left:20px;
+	line-height:100px;
+}
+
+#header .header-whole .h-right ul li:nth-Child(6) {
+	position:relative;
+}
+#header .header-whole .h-right ul li:nth-Child(6) ul li:hover{
+	background-color:red;
+}
+#header .header-whole .h-right ul li:nth-Child(6) ul{
+	position:absolute;
+	background-color:#516d97;
+	top:70%;
+	width:110px;
+	border-radius:6px;
+	display:none;
+	
+}
+#header .header-whole .h-right ul li:nth-Child(6):hover ul{
+	
+	display:block;
+}
+#header .header-whole .h-right ul li:nth-Child(6) ul li{
+	line-height:40px;
+}
+#header .header-whole .h-right ul li:nth-Child(6) ul li a{
+	color:#d5c1c1e8;
+	padding:0 10px 0 10px;
+}
+#header .header-whole .h-right ul li:nth-Child(8) button{
+	padding:10px 20px 10px 20px;
+	
+	border-radius:50px;
+	border-color:#10a7cd;
+	background:transparent;
+	color:#d5c1c1e8;
+}
+#hero{
+	height:auto;
+	background-color:#072b62;
+}
+#hero .hero-whole{
+	display:flex;
+}
+#hero .hero-whole .hero-left{
+	width:50%;
+	padding-top:12%;
+	
+}
+#hero .hero-whole .hero-left h1{
+	font-size:40px;
+	width:550px;
+	margin-bottom:20px;
+	color:white;
+	font-family: cursive;
+}
+#hero .hero-whole .hero-left p{
+	font-size:18px;
+	margin-bottom:20px;
+	width:450px;
+	color:#d5c1c1e8;
+}
+#hero .hero-whole .hero-left div{
+	height:70px;
+
+	display:flex;
+}
+#hero .hero-whole .hero-left div a button{
+	padding:10px 20px 10px 20px;
+	border-radius:50px;
+	color:white;
+	margin-top:15px;
+	border:none;
+	background-color:#107ac5;
+}
+#hero .hero-whole .hero-left div div i{
+	display:inline-block;
+	font-size:30px;
+	
+	line-height:70px;
+	margin-left:15px;
+	color:#d5c1c1e8;
+	
+}
+#hero .hero-whole .hero-left div div span{
+	line-height:70px;
+	margin-left:5px;
+	color:#d5c1c1e8;
+	
+}
+#hero .hero-whole .hero-right img{
+	height:500px;
+	
+}
+#logo{
+	height:100px;
+}
+#logo .logo-whole{
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:30px;
+	
+}
+#logo .logo-whole img{
+	height:40px;
+	width:100px;
+	filter:grayscale(1);
+	
+}
